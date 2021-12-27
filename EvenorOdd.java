@@ -6,7 +6,7 @@
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter a number to check if it is even or odd: ");
             int num = sc.nextInt();
-            String ans = checkEvenOrOdd(num);
+            int ans = checkEvenOrOdd(num);
             System.out.println(ans);
         }
 
