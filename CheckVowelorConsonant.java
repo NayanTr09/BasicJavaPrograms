@@ -10,12 +10,14 @@
         }
 
         static void checkVowelOrConsonant(char alphabet){
-            String isVowelOrConsonant;
-            switch(Character.toLowerCase(alphabet)) {
-                case 'a', 'e', 'i', 'o', 'u' -> isVowelOrConsonant = "vowel";
-                default -> isVowelOrConsonant = "consonant";
+            if (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u')
+            {
+                System.out.println("Alphabet is a vowel");
             }
-            System.out.println(isVowelOrConsonant);
-        }
+            else
+            {
+                System.out.println("Alphabet is a consonant");
+            }
+
     }
-}
+
