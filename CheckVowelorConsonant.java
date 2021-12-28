@@ -4,8 +4,8 @@
     public class CheckVowelOrConsonant {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter an alphabet to check if it is a vowel or a consonant: ");
-            char alphabet = sc.next().charAt(0);
+            System.out.println("Enter an alphabet ");
+            char ch = sc.next().charAt(0);
             checkVowelOrConsonant(alphabet);
         }
 

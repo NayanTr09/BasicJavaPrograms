@@ -16,13 +16,13 @@
             while (totalFlips != numOfFlips){
                 Random flip = new Random();
                 int coinFace = flip.nextInt(2);
+                totalFlips += 1;
                 switch(coinFace){
                     case 0 -> {
-                        totalFlips += 1;
                         tailsCount += 1;
                     }
                     case 1 -> {
-                        totalFlips += 1;
+
                         headsCount += 1;
                     }
                 }
